@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.AspNet.Mvc.Core</id>
+    <version>6.0.0-beta5</version>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>The core runtime components of ASP.NET MVC.</description>
+    <dependencies>
+      <group targetFramework="DNX4.5.1">
+        <dependency id="Microsoft.AspNet.Authentication" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.Authorization" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.Cors.Core" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.DataProtection" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.Diagnostics.Abstractions" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.FileProviders.Abstractions" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.Hosting.Abstractions" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.Http.Extensions" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.JsonPatch" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.Mvc.Abstractions" version="6.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.Routing" version="1.0.0-beta5" />
+        <dependency id="Microsoft.Framework.Logging.Abstractions" version="1.0.0-beta5" />
+        <dependency id="Microsoft.Framework.Runtime.Abstractions" version="1.0.0-beta5" />
+        <dependency id="Microsoft.Framework.WebEncoders" version="1.0.0-beta5" />
+      </group>
+      <group targetFramework="DNXCore5.0">
+        <dependency id="Microsoft.AspNet.Authentication" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.Authorization" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.Cors.Core" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.DataProtection" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.Diagnostics.Abstractions" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.FileProviders.Abstractions" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.Hosting.Abstractions" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.Http.Extensions" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.JsonPatch" version="1.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.Mvc.Abstractions" version="6.0.0-beta5" />
+        <dependency id="Microsoft.AspNet.Routing" version="1.0.0-beta5" />
+        <dependency id="Microsoft.Framework.Logging.Abstractions" version="1.0.0-beta5" />
+        <dependency id="Microsoft.Framework.Runtime.Abstractions" version="1.0.0-beta5" />
+        <dependency id="Microsoft.Framework.WebEncoders" version="1.0.0-beta5" />
+        <dependency id="System.ComponentModel.Annotations" version="4.0.10-beta-23019" />
+        <dependency id="System.Runtime.Serialization.Primitives" version="4.0.10-beta-23019" />
+        <dependency id="Microsoft.CSharp" version="4.0.0-beta-23019" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System.Runtime.Serialization" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="DNX4.5.1" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="DNX4.5.1" />
+    </frameworkAssemblies>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm</licenseUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <copyright>Copyright © Microsoft Corporation</copyright>
+    <projectUrl>http://www.asp.net/</projectUrl>
+  </metadata>
+</package>
