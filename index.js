@@ -3,19 +3,12 @@ var BrowserWindow = require('browser-window');
 var path = require('path');
 var readLine = require("readline");
 
-//require('crash-reporter').start();
 var Menu = require('menu');
 var MenuItem = require('menu-item');
 
 var child_process = null;
-/*window.addEventListener('contextmenu', function (e) {
-  e.preventDefault();
-  menu.popup(remote.getCurrentWindow());
-}, false);*/
-
 // loads module and registers app specific cleanup callback...
 var cleanup = require('./cleanup').Cleanup(myCleanup);
-//var cleanup = require('./cleanup').Cleanup(); // will call noOp
 
 // defines app specific callback...
 function myCleanup() {
@@ -40,8 +33,6 @@ app.on('window-all-closed', function () {
 app.on('ready', function () {
 
    child_process = require('child_process').exec(path.resolve(__dirname + '/HelloMvc/bin/output/"web.cmd"')).on('error', function (err) { throw err });
-
-  //__dirname + '\\HelloMvc\\bin\\output\\web.cmd'
  
   mainWindow = new BrowserWindow({ width: 800, height: 600 });
  
