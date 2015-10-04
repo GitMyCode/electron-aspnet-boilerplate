@@ -2,14 +2,16 @@
   "name": "electron-aspnet-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./index.js",
   "dependencies": {
-    "electron-prebuilt": "^0.30.1",
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "^0.33.4",
     "jquery": "^2.1.4"
   },
   "devDependencies": {},
   "scripts": {
     "start": "electron .",
+    "build": "electron-packager . dist --platform=win32 --arch=x64 --version=0.33.4  --overwrite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
